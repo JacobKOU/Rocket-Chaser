@@ -5,6 +5,7 @@ import javax.swing.*;
 
 public class Application extends JFrame {
 	
+	//width and height of window
 	public int width = 1000;
 	public int height = 1000;
 

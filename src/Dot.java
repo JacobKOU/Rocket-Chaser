@@ -20,7 +20,7 @@ public class Dot {
 		place();
 	}
 	
-	private void loadImage() {
+	private void loadImage() { //loads the target image
 		
 		ImageIcon imageURL = new ImageIcon("src/data/dot.png");
 		image = imageURL.getImage();
@@ -30,7 +30,7 @@ public class Dot {
 		
 	}
 	
-	public void place() {
+	public void place() { //places the target in a new random location
 		
 		Random rng = new Random();
 		

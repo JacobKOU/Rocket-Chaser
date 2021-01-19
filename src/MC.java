@@ -29,7 +29,7 @@ public class MC {
 		imageLoad();
 	}
 	
-	private void imageLoad() {
+	private void imageLoad() { //loads the image and gets the image's width and height
 		
 		ImageIcon imageURL = new ImageIcon("src/data/rocket.png");
 		image = imageURL.getImage();
@@ -40,7 +40,7 @@ public class MC {
 		
 	}
 	
-	public void move() {
+	public void move() { //move player
 		
 		x += dx;
 		y += dy;
@@ -66,7 +66,7 @@ public class MC {
 		return image;
 	}
 	
-	public void keyPressed(KeyEvent e) {
+	public void keyPressed(KeyEvent e) { //if the key is pressed
 		
 		int key = e.getKeyCode();
 		
@@ -89,7 +89,7 @@ public class MC {
 		
 	}
 	
-	public void keyReleased(KeyEvent e) {
+	public void keyReleased(KeyEvent e) { //if the key is released
 		
 		int key = e.getKeyCode();
 		
